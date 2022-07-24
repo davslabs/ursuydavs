@@ -1,0 +1,24 @@
+.rsvp-title {
+  font-family: 'Delycost', sans-serif;
+  font-weight: 400;
+}
+
+.rsvp-title h1 {
+    font-size: 3rem;
+}
+
+.italic {
+    font-style: italic;
+    font-size: 0.75rem;
+}
+
+.rsvp-body {
+    font-family: 'Gotham', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+.rsvp-body h4 {
+    font-size: 1rem;
+}

@@ -1,0 +1,18 @@
+.hero-title {
+  font-family: Delycost, sans-serif;
+  font-weight: 400;
+}
+
+.hero-title h1 {
+  font-size: 5rem;
+}
+
+.hero-title h2 {
+  font-size: 2rem;
+}
+
+.hero-body {
+  font-family: 'Gotham', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
