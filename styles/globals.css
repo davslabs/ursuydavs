@@ -24,3 +24,45 @@ a {
     background: black;
   }
 }
+
+@font-face {
+  font-family: 'Delycost';
+  src: url('../asset/delyfont/delyfont.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src: url('../asset/gotham/GothamLight.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+.section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  position: relative;
+  text-align: center;
+}
+
+.icon-text {
+  font-family: 'Gotham', sans-serif;
+  text-decoration: none;
+  font-weight: 400;
+  font-style: normal;
+  display: inline-block;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+}
+
+.icon-text:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.icon {
+  display: inline-block;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
