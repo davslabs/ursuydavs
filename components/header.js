@@ -12,23 +12,16 @@ import {
 
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
-    const [sticky, setSticky] = useState(false);
     const toggle = () => setIsOpen(!isOpen);
-  
-    useEffect(() => {
-      window.addEventListener('scroll', handleScroll);
-    });
-  
-    const handleScroll = () => {
-      if (window.scrollY > 50) {
-        setSticky(true);
-      } else if (window.scrollY < 50) {
-        setSticky(false);
-      }
+
+    const moveTo = (section) => {
+        if (typeof window !== "undefined") {
+            window.fullpage_api.moveTo(section, 0);
+        }        
     }
 
     return (
-        <div className={`header${sticky ? ' sticky' : ''}`}>
+        <div className='header sticky'>
             <Navbar light expand="md">
                 <Container>
                     <NavbarBrand className='logo' href='/'>U & D</NavbarBrand>
@@ -36,16 +29,16 @@ const Header = () => {
                     <Collapse isOpen={isOpen} navbar>
                         <Nav className="m-auto" navbar>
                             <NavItem>
-                                <NavLink href="#">Fecha y Lugar</NavLink>
+                                <NavLink onClick={() => { moveTo('hero') }} href="#">Fecha y Lugar</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink href="#">Hospedaje y Traslado</NavLink>
+                                <NavLink onClick={() => { moveTo('location') }} href="#">Hospedaje y Traslado</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink href="#">RSVP</NavLink>
+                                <NavLink onClick={() => { moveTo('rsvp') }} href="#">RSVP</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink href="#">Regalos</NavLink>
+                                <NavLink onClick={() => { moveTo('gift') }} href="#">Regalos</NavLink>
                             </NavItem>
                         </Nav>
                     </Collapse>

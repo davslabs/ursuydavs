@@ -12,14 +12,19 @@ const Location = () => {
                     </Col>
                 </Row>
                 <Row className='justify-content-center mt-5'>
-                    <Col lg={6}>
+                    <Col lg={6} className='mt-5'>
                         <LocationMini 
                             title='Hospedaje'
+                            content={`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, 
+                            consectetur adipiscing elit. Lorem ipsum dolor sit amet, 
+                            consectetur adipiscing elit. Lorem ipsum dolor sit amet, 
+                            consectetur adipiscing elit.`}
                         />
                     </Col>
-                    <Col lg={6}>
+                    <Col lg={6} className='mt-5'>
                         <LocationMini 
                             title='Cómo llegar'
+                            content='Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
                         />
                     </Col>
                 </Row>
