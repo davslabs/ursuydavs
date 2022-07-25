@@ -32,13 +32,16 @@ const Header = () => {
                                 <NavLink onClick={() => { moveTo('hero') }} href="#">Fecha y Lugar</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink onClick={() => { moveTo('location') }} href="#">Hospedaje y Traslado</NavLink>
-                            </NavItem>
-                            <NavItem>
-                                <NavLink onClick={() => { moveTo('rsvp') }} href="#">RSVP</NavLink>
+                                <NavLink onClick={() => { moveTo('location') }} href="#">Hospedaje</NavLink>
                             </NavItem>
                             <NavItem>
                                 <NavLink onClick={() => { moveTo('gift') }} href="#">Regalos</NavLink>
+                            </NavItem>
+                            <NavItem>
+                                <NavLink onClick={() => { moveTo('dress') }} href="#">Dress code</NavLink>
+                            </NavItem>
+                            <NavItem>
+                                <NavLink onClick={() => { moveTo('rsvp') }} href="#">RSVP</NavLink>
                             </NavItem>
                         </Nav>
                     </Collapse>

@@ -6,7 +6,7 @@ const Rsvp = () => {
     return (
         <section className='section position-relative'>
             <Container>
-                <Row className='justify-content-center'>
+                <Row className='justify-content-center mt-5'>
                     <Col className='rsvp-title'>
                         <h1>RSVP</h1>
                     </Col>

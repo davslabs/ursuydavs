@@ -5,6 +5,7 @@ import Hero from "../components/hero";
 import Rsvp from "../components/rsvp";
 import Location from "../components/location";
 import Gift from "../components/gift";
+import DressCode from '../components/dressCode';
 
 const Index = () => {
     return (
@@ -13,15 +14,16 @@ const Index = () => {
             <ReactFullpage
                 licenseKey={'YOUR_KEY_HERE'}
                 scrollingSpeed={1000}
-                dragAndMove
-                anchors={['hero', 'location', 'rsvp', 'gift']}
+                dragAndMove={true}
+                anchors={['hero', 'location', 'gift', 'dress', 'rsvp']}
                 render={({ state, fullpageApi }) => {
                     return (
                         <ReactFullpage.Wrapper>
                             <Hero />
-                            <Location />
-                            <Rsvp />
+                            <Location />                            
                             <Gift />
+                            <DressCode />
+                            <Rsvp />
                         </ReactFullpage.Wrapper>
                     );
                 }}

@@ -6,3 +6,9 @@
 .location-title h1 {
     font-size: 5rem;
 }
+
+.location-content {
+    font-family: 'Gotham', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}

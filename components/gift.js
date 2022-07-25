@@ -13,31 +13,18 @@ const Gift = () => {
                 <Row className='justify-content-center mt-5'>
                     <Col lg={6} className='mt-5'>
                         <div className='gift-content'>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet,</p>
-                            <p>consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <p style={{ fontSize: 15, fontWeight: 'bold' }}>¡Lo más importante es que vengas!</p>
+                            <p>Pero si queres hacernos un regalo, podes ayudarnos con nuestra luna de miel o también podes dejarnos tu presente el día de la fiesta</p>
                         </div>
                     </Col>
                     <Col lg={6} className='mt-5'>
-                        <Row className='justify-content-center'>
-                            <Col lg={6}>
-                                <div className='gift-content'>
-                                    <p style={{ fontSize: 12, fontWeight: 'bold' }}>Caja de Ahorro en pesos</p>
-                                    <span style={{ fontSize: 10 }}>
-                                        CBU 0340117608449814602004
-                                        <p>Alias: DAVIDASSEN.PATAGONIA</p>
-                                    </span>
-                                </div>
-                            </Col>
-                            <Col lg={6}>
-                                <div className='gift-content'>
-                                    <p style={{ fontSize: 12, fontWeight: 'bold' }}>Caja de Ahorro en dolares</p>
-                                    <span style={{ fontSize: 10 }}>
-                                        CBU 0340010409449814602005
-                                        <p>Alias: ASSEN.PATAGONIA.DLS</p>
-                                    </span>
-                                </div>
-                            </Col>
-                        </Row>
+                        <div className='gift-content'>
+                            <p style={{ fontSize: 15, fontWeight: 'bold' }}>Caja de Ahorro en pesos</p>
+                            <span style={{ fontSize: 10 }}>
+                                CBU 0720182688000037839804
+                                <p>Alias: UrsuEngelen</p>
+                            </span>
+                        </div>
                     </Col>
                 </Row>
             </Container >
