@@ -28,16 +28,6 @@ a.btn:hover {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
-}
-
 body {
   background: url("https://res.cloudinary.com/managely/image/upload/v1658708638/weddingsplash6.jpg")  no-repeat center center fixed;
   background-size: cover;
