@@ -17,7 +17,7 @@ const Rsvp = () => {
                         <p className='italic'>Para confirmar asistencia por favor completar el formulario que se abre al apretar el botón que aparece a continuación</p></h4>
                         <div className='mt-3'>
                             <LinkTo
-                                url='#'
+                                url='https://forms.gle/c3hVEWSsKaZPvLpM9'
                                 text='Confirmar asistencia'
                             />
                         </div>
